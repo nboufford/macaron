@@ -14,7 +14,6 @@ steps:
     command_args:
     - -c
     - maven_config.yaml
-    - --skip-deps
 - name: Compare dependency report
   kind: compare
   options:

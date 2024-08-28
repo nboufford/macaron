@@ -29,7 +29,6 @@ steps:
     command_args:
     - -c
     - config.yaml
-    - --skip-deps
 - name: Run verify-policy for apache/maven
   kind: verify
   options:

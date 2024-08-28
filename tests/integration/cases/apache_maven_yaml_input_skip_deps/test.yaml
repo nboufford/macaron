@@ -15,7 +15,6 @@ steps:
     command_args:
     - -c
     - maven_config.yaml
-    - --skip-deps
 - name: Run macaron verify-policy for maven
   kind: verify
   options:
